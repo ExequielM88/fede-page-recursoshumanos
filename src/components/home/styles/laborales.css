@@ -1,0 +1,69 @@
+.container-laborales {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    align-items: center;
+    margin: 3em auto;
+}
+
+.container-img-laborales {
+    
+}
+
+.info-laboral {
+    display: grid;
+    gap: 1em;
+    padding-left: 3em;
+}
+
+.info-laboral h2 {
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+.info-laboral p {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.info-laboral button {
+    background-color:#07a2a6;
+    color: aliceblue;
+    font-size: 1.8em;
+    padding: 0.5em;
+    width: 30%;
+    border-radius: 0.5em;
+    transition: 1s all ease;
+}
+
+.info-laboral button:hover {
+    box-shadow:6px 6px 6px 6px rgba(67, 62, 62, 1);
+    color: black;
+}
+
+
+@media (max-width: 600px) {
+    .container-laborales {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        gap: 1em;
+    }
+
+    .info-laboral p {
+        font-size: 2em;
+        
+    }
+
+    .info-laboral {
+        text-align: center;
+        padding: 0;
+    }
+
+    .info-laboral button {
+        width: 30%;
+        font-size: 1.3em;
+        margin:1em auto 0em;
+        
+    }
+}

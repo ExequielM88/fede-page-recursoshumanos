@@ -1,0 +1,73 @@
+.container-contactohome {
+   background-image: url("http://focusrrhh.com/wp-content/uploads/2021/08/bkdos.jpg");
+   background-size: cover;
+   height: 350px;
+   display: grid;
+   justify-content: flex-end;
+   margin-top: 6em;
+   
+}
+
+.contacto {
+    
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr;
+    height: 100%;
+    gap: 7em;
+    margin-right: 14em;
+}
+
+.info-contact {
+   display: flex;
+   flex-direction: column;
+   gap: 3em;
+   justify-content: center;
+}
+
+.info-contact h3 {
+    color: #07a2a6;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+
+.info-contact h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.container-button {
+    display: flex;
+    align-items: center;
+}
+
+.button-contact {
+    background-color:#07a2a6;
+    color: aliceblue;
+    font-size: 1.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    transition: 1s all ease;
+    
+    
+}
+
+.button-contact:hover {
+    box-shadow:6px 6px 6px 6px rgba(67, 62, 62, 1);
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .container-contactohome {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        margin: 1.5em auto;
+        
+    }
+}

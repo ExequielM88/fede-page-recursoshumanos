@@ -1,0 +1,97 @@
+.footer {
+    margin-top: 2rem;
+}
+
+.container-footer {
+    background-color: #a1a6aa;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2rem;
+    gap: 2rem;
+}
+.copy {
+    background-color: #a1a6aa;
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #cbd3d9 ;
+}
+
+.header-logoo {
+    width: 12rem;
+    
+}
+
+.bxx {
+    font-size: 2rem;
+    color: #07a2a6;
+    
+}
+
+.contactos {
+    display: flex;
+    background-color: #cbd3d9;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.localizacion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: #cbd3d9;
+}
+
+.bxl-whatsapp {
+    color: #07a2a6;
+}
+
+.h1-footer {
+    font-size: 1.4em;
+}
+
+.container-redes {
+    display: flex;
+    gap: 0.5em;
+}
+
+.border {
+    border: 2px solid #d6e9f8;
+}
+
+@media (max-width: 600px) {
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redes {
+        padding: 1em;
+    }
+
+    .localizacion {
+        padding: 0.7em;
+    }
+
+    .contactos {
+       padding: 0.5em;
+        
+    }
+
+    .h1-footer {
+        font-size: 1.1em;
+    }
+
+    .copy {
+        padding: 0.5em;
+    }
+}    

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300;400&display=swap');
+:root {
+    
+    --primary: #d4ddd6;
+    --body-color:#ececec;
+    --gray: #c7c7c7;
+    --dark-gray: #4f4f4f;
+     --text-gray: #ababab;
+}
+body {
+    background-image: url(../public/img/background.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1,h2,h3,h4,p,ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+button {
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
