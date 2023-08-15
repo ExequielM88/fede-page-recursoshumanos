@@ -7,7 +7,7 @@ const ServiciosHome = () => {
       <div className='info-service'>
         <div className="container-card cardd">
           <div className="container-img">
-            <img  src="	http://focusrrhh.com/wp-content/uploads/2021/09/WhatsApp-Image-2021-08-26-at-18.54.43.jpeg" alt="" />
+            <img  src="../img/servicio1.png" alt="" />
           </div>
           <div className="info-card">
            <h2 className='second-title'>GESTIÓN INTEGRAL DE RECURSOS HUMANOS:</h2>
@@ -20,7 +20,7 @@ const ServiciosHome = () => {
       </div>
       <div className="container-card card">
         <div className="container-img">
-          <img  src="	http://focusrrhh.com/wp-content/uploads/2021/09/WhatsApp-Image-2021-08-26-at-18.55.30.jpeg" alt="" />
+          <img  src="../img/servicio2.png"alt="" />
         </div>
         <div className="info-card">
          <h2 className='second-title'>RECLUTAMIENTO:</h2>
@@ -33,7 +33,7 @@ const ServiciosHome = () => {
       </div>
       <div className="container-card cardd">
         <div className="container-img">
-          <img  src="	http://focusrrhh.com/wp-content/uploads/2021/09/WhatsApp-Image-2021-08-26-at-18.53.57.jpeg" alt="" />
+          <img  src="../img/servicio3.png" alt="" />
         </div>
         <div className="info-card">
          <h2 className='second-title'>SELECCIÓN DE PERSONAL:</h2>

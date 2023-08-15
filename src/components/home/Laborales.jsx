@@ -7,7 +7,7 @@ const Laborales = () => {
       <h1 className='title'>Ofertas Laborales</h1>
       <div className='container-laborales'>
       <div className="container-img-laborales"> 
-        <img src="../../public/img/oportunidadeslaborales.jpg" alt="" />
+        <img src="../img/oportunidadeslaborales.jpg" alt="" />
       </div>
       <div className='info-laboral'>
         <h2>Ofertas Laborales</h2>

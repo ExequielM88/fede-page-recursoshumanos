@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <header className={`header ${scrolling ? "scrolling" : ""}`}>
-      <Link to="/"><img className='header-logo' src="http://focusrrhh.com/wp-content/uploads/2021/07/logo-focus-retinma.png" alt="" /></Link>
+      <Link to="/"><img className='header-logo' src="../../img/logo.png" alt="" /></Link>
       <nav className='nav-header'>
         <ul className='ul-header'>
           <li><Link className='link' to="/SobreNosotros">Sobre Nosotros</Link></li>

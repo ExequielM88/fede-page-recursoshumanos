@@ -6,7 +6,7 @@ const Footer = () => {
       <div className='container-footer'>
       <div className='redes border'>
         <div className='img-footer'>
-          <img className='header-logoo' src="http://focusrrhh.com/wp-content/uploads/2021/07/logo-focus-retinma.png" alt="" />
+          <img className='header-logoo' src="../../img/logo.png" alt="" />
         </div>
         <div className='container-redes'>
           <i className='bx bxl-facebook-square bxx'></i>

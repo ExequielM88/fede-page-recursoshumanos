@@ -7,7 +7,7 @@ import ContactoHome from '../components/home/ContactoHome'
 
 const Home = () => {
 
-  const gif= "../public/img/video-gif.gif"
+  const gif= "../img/video-gif.gif"
     
   return (
     <div className='home'>

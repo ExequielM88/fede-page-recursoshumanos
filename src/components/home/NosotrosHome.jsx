@@ -7,7 +7,7 @@ const NosotrosHome = () => {
         <h1 className='nosotros'>Nosotros</h1>
         <div className='container-infohome'>
           <div className='container-image'>
-            <img src="../../../public/img/nosotroshome.jpg" alt="" />
+            <img src="../img/nosotroshome.jpg" alt="" />
           </div>
           <div className='info-nosotros'>
             <h3>Focus</h3>
