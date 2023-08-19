@@ -1,5 +1,5 @@
 .container-servicios {
-    padding-top: 180px;
+    padding-top: 10em;
 }
 .container-nos-servicio {
     background-image: url("../img/texturado-servicios.jpg");
@@ -79,4 +79,42 @@
 .ser1 {
     background-color: #bec9d1;
 }
+
+
+@media (max-width: 600px) {
+    .container-nos-servicio {
+        padding: 2em;
+        
+    }
+
+    .servicios-nosotros {
+        display: flex;
+        flex-direction: column;
+        font-size: 1em;
+        width: 90%;
+    }
+
+    .container-nos-servicio h2 {
+        font-size: 1.5em;
+        
+    }
+    
+    .info-servicios {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+    
+    .servicios {
+        background-color: aliceblue;
+        border: 2px solid #bec9d1;
+        padding: 2em;
+    }
+
+    .img-servicios {
+        width: 85%;
+        margin: auto;
+    }
+}
+
 

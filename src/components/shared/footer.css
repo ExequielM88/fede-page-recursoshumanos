@@ -94,4 +94,9 @@
     .copy {
         padding: 0.5em;
     }
+
+    .header-logoo {
+        width: 10rem;
+        
+    }
 }    
