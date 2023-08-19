@@ -16,6 +16,7 @@
     height: 100px;
     box-shadow: 0 4px 6px rgba(67, 62, 62, 0.5);
     padding-top: 0.8em;
+    
   }
 
 .header-logo {
@@ -37,7 +38,7 @@
 }
 
 .link {
-    color: whitesmoke;
+    color: rgb(13, 212, 219);
     
 }
 

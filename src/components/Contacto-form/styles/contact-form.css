@@ -1,0 +1,93 @@
+.content {
+    padding-top: 8em;
+}
+
+.container-contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 6em;
+    box-shadow: 10px 10px 5px 13px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 10px 10px 5px 13px rgba(0,0,0,0.57);
+    -moz-box-shadow: 10px 10px 5px 13px rgba(0,0,0,0.57);
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 3em;
+    background-color: #bec9d1;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #a1a6aa;
+    gap: 2em;
+    padding: 2em;
+    
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.5em;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid #bec9d1;
+    resize: none;
+    color: var(--color-white);
+}
+
+textarea {
+    font-size: 1.5em;
+}
+
+.title {
+    text-align: left;
+    
+    margin: 0 0 1em 2em;
+    font-size: 3em;
+    font-weight: 400;
+    border-bottom: 1px solid #07a2a6;
+
+}
+
+.info-form {
+    margin-left: 9em;
+    margin-top: 1em;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+.localizacion-form p {
+    margin-left: 9em;
+    margin-top: 1em;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+.redes-form {
+    display: flex;
+    gap: 2em;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary {
+    width: 4em;
+    padding: 0.5em;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    background-color:#07a2a6;
+    color: aliceblue;
+    transition: 1s all ease;
+    margin: auto;
+}
+
+.btn-primary:hover {
+    box-shadow:6px 6px 6px 6px rgba(67, 62, 62, 1);
+    color: black;
+}

@@ -1,0 +1,82 @@
+.container-servicios {
+    padding-top: 180px;
+}
+.container-nos-servicio {
+    background-image: url("../img/texturado-servicios.jpg");
+    padding: 5em;
+    width: 90%;
+    margin: 0 auto 100px;
+    box-shadow: 4px 5px 83px -1px rgba(0,0,0,0.65);
+    -webkit-box-shadow: 4px 5px 83px -1px rgba(0,0,0,0.65);
+    -moz-box-shadow: 4px 5px 83px -1px rgba(0,0,0,0.65);
+    border-radius: 2em;
+    
+}
+
+.container-nos-servicio h2 {
+    font-size: 3em;
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+}
+.servicios-nosotros {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    padding-top: 2em;
+    line-height: 1.5;
+    font-size: 1.1em;
+    text-align: justify;
+    font-family: 'Neuton', serif;
+    font-weight: 300;
+    color: black;
+}
+
+.nos {
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+}
+
+.info-servicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin: auto;
+    
+    
+}
+
+.servicios {
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.servicios h2 {
+    font-family: 'Neuton', serif;
+    font-weight: 400;
+}
+
+.servicios p {
+    line-height: 1.5;
+    font-size: 1.1em;
+    text-align: justify;
+    font-family: 'Neuton', serif;
+    font-weight: 300;
+    color: black;
+}
+
+.img-servicios {
+    width: 70%;
+    margin: auto;
+}
+
+.ser {
+    background-color: aliceblue;
+}
+
+.ser1 {
+    background-color: #bec9d1;
+}
+

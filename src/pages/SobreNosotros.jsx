@@ -1,8 +1,13 @@
 import React from 'react'
+import "./styles/sobrenosotros.css"
 
 const SobreNosotros = () => {
   return (
-    <div>SobreNosotros</div>
+    <div className='container-nosotros'>
+      <div className="sobre-nosotros">
+
+      </div>
+    </div>
   )
 }
 
