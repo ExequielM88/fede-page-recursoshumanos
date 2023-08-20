@@ -10,6 +10,7 @@
     align-items: center;
     transition:  1s all ease;
   }
+
   
   .scrolling {
     background-color: rgb(64, 56, 56);
@@ -25,7 +26,9 @@
     background-color: aliceblue;
 }
 
-
+.menu-icon {
+       display: none;
+    }
 .ul-header {
     display: flex;
     flex-direction: row;
@@ -61,12 +64,32 @@
     .header-logo {
         width: 20%;
         margin-left: 0.5em;
-        
-        
+    }
+
+    .menu-icon {
+        display: block;
+        padding-right: 2em;
+        color: rgb(13, 212, 219);
         
     }
 
+    
     .ul-header {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        right: -100%;
+        font-size: 1em;
+        background-color: rgb(64, 56, 56);
+        transition: 1.5s ease-in;
+        
     }
+
+    .open {
+        right:0px;
+        
+    }
+
+   
+    
 }
